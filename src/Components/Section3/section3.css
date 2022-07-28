@@ -1,0 +1,38 @@
+.section3Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem 0;
+  background-color: #f6f9fc;
+}
+.sectionContainer {
+  position: relative;
+  padding: 8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  gap: 2rem;
+  z-index: 6;
+  /* background-color: red; */
+}
+.sectionContainer h2 {
+  color: #6a73fe;
+}
+.sectionContainer h1 {
+  width: 25ch;
+  font-size: 60px;
+}
+.secDes {
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+}
+.secDes p {
+  flex-basis: 50%;
+}
+.text-blue {
+  color: #6a73fe;
+  font-weight: 700;
+}

@@ -1,0 +1,41 @@
+.navBar {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  color: white;
+}
+.heading {
+  width: fit-content;
+}
+.menus {
+  /* width: 80%; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.menuList {
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuItems {
+  padding: 0 1rem;
+  font-weight: bold;
+  cursor: default;
+}
+.menuItems:hover {
+  opacity: 0.8;
+}
+.btnContainer {
+  background: rgba(202, 202, 202, 0.24);
+}
+.btnContainer:hover {
+  background: rgba(202, 202, 202);
+}

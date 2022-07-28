@@ -1,0 +1,157 @@
+.topGlass {
+  width: 1000px;
+  /* height: 400px; */
+  background: rgba(155, 155, 153, 0.411);
+  position: absolute;
+  z-index: -1;
+  padding: 1rem;
+  margin-left: 5rem;
+  border-radius: 10px;
+}
+.glassNav {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+.glassTopic {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.searchBox {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 10px;
+  padding: 4px;
+}
+.searchBox input {
+  outline: none;
+  background: none;
+  border: none;
+}
+.searchBox span {
+  color: gray;
+  margin: 0 1rem 0 0.5rem;
+}
+.phoneImage {
+  padding: 1rem;
+  width: 230px;
+
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: rgb(255, 255, 255);
+
+  position: absolute;
+  left: -100px;
+
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.phoneHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.payBtn {
+  width: 90%;
+  background: black;
+  color: white;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.payOption {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.payOption .line {
+  width: 100%;
+  height: 1px;
+  background: rgb(112, 112, 112);
+
+  opacity: 0.5;
+  position: relative;
+  z-index: 10;
+}
+.payOption p {
+  width: fit-content;
+  position: absolute;
+  z-index: 20;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.phoneform {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.phonelabel label {
+  width: 100%;
+}
+
+.phonelabel .inputForm {
+  width: 100%;
+  margin: 4px 0;
+
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.phonelabel input {
+  width: fit-content;
+  padding: 4px;
+  margin: 4px 0;
+  outline: none;
+  border: none;
+}
+.cardInfo {
+  margin: 4px 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.cardTypes {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+.amex,
+.visa {
+  color: rgb(6, 129, 160);
+}
+
+.charts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.charts img {
+  width: 800px;
+}

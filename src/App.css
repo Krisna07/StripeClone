@@ -1,0 +1,91 @@
+.App {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.bodyContainer {
+  max-width: 1000px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid rgba(128, 128, 128, 0.281); */
+  z-index: 5;
+}
+.topStripe {
+  width: 150%;
+  min-height: 60%;
+  transform: rotate(-10deg);
+  background-image: linear-gradient(to right, red, purple);
+  position: absolute;
+  top: -30%;
+  left: -200px;
+  z-index: 1;
+}
+.hoverItem {
+  width: fit-content;
+  font-weight: bold;
+  border-radius: 50px;
+  position: relative;
+}
+.hoverBtn {
+  display: flex;
+}
+.hoverItem .btnText {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+  /* font-size: 12px; */
+}
+.arrows {
+  width: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.hoverArrow {
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.hoverItem:hover .arrowFirst {
+  transform: translateX(5px);
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+.hoverItem:hover .hoverArrow {
+  display: block;
+  opacity: 1;
+  transition: opacity 200ms ease;
+}
+
+.hrItems {
+  position: fixed;
+  top: 0;
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(58, 58, 59, 0.13);
+  border-top: 0;
+  border-bottom: 0;
+  z-index: -4;
+}
+.hrItems span {
+  width: 1px;
+  height: 100%;
+  border-right: 1px dashed rgba(105, 105, 105, 0.116);
+
+  /* position: absolute; */
+  /* transform: rotate(90deg); */
+}

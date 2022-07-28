@@ -1,0 +1,12 @@
+.sponsers-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 10rem;
+  width: 100%;
+}
+.svgIcon {
+  width: fit-content;
+  max-width: 120px;
+  height: fit-content;
+}

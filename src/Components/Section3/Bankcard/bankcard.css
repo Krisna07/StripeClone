@@ -1,0 +1,135 @@
+.bankcard {
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  transition: all 300ms ease-in;
+  padding: 1rem;
+  overflow: hidden;
+}
+.cardHeading,
+.cardFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-weight: 400;
+}
+.bankcard img {
+  width: 400px;
+  image-resolution: 400px 250px;
+  object-fit: fill;
+}
+.cardIcons {
+  font-size: 80px;
+}
+.cardHeading {
+  font-weight: 400;
+  font-size: 30px;
+}
+.cardImage {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.lemon {
+  /* opacity: 0; */
+  transform: rotate(90deg);
+  color: rgb(255, 253, 121);
+  opacity: 1;
+}
+.circles {
+  width: 40px;
+  height: 20px;
+  background: yellow;
+  position: absolute;
+  border-radius: 20px 50% 20px 0;
+  display: flex;
+  transition: all 100ms ease-in;
+}
+.circles:nth-child(5) {
+  width: 30px;
+  left: -10%;
+  top: 20%;
+}
+.circles:nth-child(5)::after {
+  content: "";
+  width: 20px;
+  height: 10px;
+  background: rgb(247, 247, 247);
+  position: relative;
+  top: -100%;
+  transform: rotate(180deg);
+  border-radius: 20px 50% 20px 0;
+}
+.circles:nth-child(1)::after {
+  content: "";
+  width: 40px;
+  height: 20px;
+  background: rgb(247, 247, 247);
+  position: relative;
+  top: -100%;
+  transform: rotate(180deg);
+  border-radius: 20px 50% 20px 0;
+}
+.circles:nth-child(2)::after {
+  content: "";
+  width: 40px;
+  height: 20px;
+  background: rgb(247, 247, 247);
+  position: relative;
+  top: -100%;
+  transform: rotate(180deg);
+  border-radius: 20px 50% 20px 0;
+}
+.circles:nth-child(3)::after {
+  content: "";
+  width: 40px;
+  height: 20px;
+  background: rgb(247, 247, 247);
+  position: relative;
+  top: -180%;
+  transform: rotate(90deg);
+  border-radius: 50% 0 0 50%;
+}
+.circles:nth-child(1) {
+  top: -10%;
+}
+.circles:nth-child(2) {
+  left: 15%;
+  transform: rotate(180deg);
+}
+.circles:nth-child(3) {
+  left: 80%;
+}
+.lemoncard span:nth-child(4) {
+  width: 50px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  right: -14%;
+  top: -40px;
+  border-radius: 50px 0 0 50px;
+}
+@keyframes lemon {
+  10% {
+    transform: rotate(80deg);
+  }
+  40% {
+    transform: rotate(85deg);
+  }
+  80% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(76deg);
+  }
+}
