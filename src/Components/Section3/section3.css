@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 8rem 0;
+  padding: 2rem 0;
   background-color: #f6f9fc;
 }
 .sectionContainer {
@@ -35,4 +35,8 @@
 .text-blue {
   color: #6a73fe;
   font-weight: 700;
+}
+.cardAnimations {
+  display: flex;
+  gap: 2.5rem;
 }

@@ -1,0 +1,7 @@
+  <svg height="40" width="40" fill="red">
+                <circle cx="20" cy="6" r="4" stroke="green" fill="green" />
+                <circle cx="20" cy="20" r="4" stroke="green" fill="green" />
+                <circle cx="6" cy="20" r="4" stroke="green" fill="green" />
+                <circle cx="34" cy="20" r="4" stroke="green" fill="green" />
+                <circle cx="20" cy="34" r="4" stroke="green" fill="green" />
+              </svg>

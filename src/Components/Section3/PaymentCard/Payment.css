@@ -1,0 +1,153 @@
+.paymentBox {
+  /* width: 400px;
+  height: 350px; */
+  padding: 2rem 8rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.halfbackground {
+  width: 150%;
+  height: 100%;
+
+  transform: rotate(-15deg);
+  position: absolute;
+  z-index: 0;
+  top: -50%;
+  left: -5rem;
+}
+
+.fromCard {
+  width: 400px;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 8px;
+}
+.PformTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circleCenter {
+  width: 60px;
+  height: 60px;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  position: absolute;
+  top: -25px;
+  background-color: white;
+  overflow: hidden;
+}
+.paymentIcons,
+.paymentCompany {
+  position: relative;
+  animation: slideIn 600ms ease;
+}
+@keyframes slideIn {
+  from {
+    left: -40px;
+  }
+  100% {
+    left: 5px;
+  }
+  20% {
+    left: 0px;
+  }
+  10% {
+    left: -5px;
+  }
+}
+.paymentTopics {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pformBottom {
+  width: 100%;
+  background: rgba(182, 182, 182, 0.171);
+}
+.textDes {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.bottomDetails {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.cardBank {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputFields {
+  padding: 3px;
+  width: 45%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+}
+.cardDetails {
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+}
+.cardDetails span {
+  padding: 3px;
+}
+.cardNum {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cardExp {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardExp span {
+  padding: 0 10px;
+}
+.paymentBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 5px 0;
+
+  font-weight: 600;
+}

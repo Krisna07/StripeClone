@@ -1,6 +1,6 @@
 .bankcard {
-  width: 400px;
-  height: 230px;
+  width: 350px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +45,7 @@
   transform: rotate(90deg);
   color: rgb(255, 253, 121);
   opacity: 1;
+  animation: lemon 300ms ease-in-out;
 }
 .circles {
   width: 40px;
@@ -54,6 +55,16 @@
   border-radius: 20px 50% 20px 0;
   display: flex;
   transition: all 100ms ease-in;
+  opacity: 1;
+  animation: postmates 300ms alternate-reverse;
+}
+@keyframes postmates {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .circles:nth-child(5) {
   width: 30px;
@@ -120,16 +131,10 @@
   border-radius: 50px 0 0 50px;
 }
 @keyframes lemon {
-  10% {
-    transform: rotate(80deg);
+  from {
+    font-size: 10px;
   }
-  40% {
-    transform: rotate(85deg);
-  }
-  80% {
-    transform: rotate(90deg);
-  }
-  100% {
-    transform: rotate(76deg);
+  to {
+    font-size: 80px;
   }
 }

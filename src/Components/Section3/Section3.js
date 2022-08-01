@@ -1,6 +1,7 @@
 import React from "react";
 import HoverBtn from "../HoverBtn";
 import Bankcard from "./Bankcard/Bankcard";
+import Payment from "./PaymentCard/Payment";
 import "./section3.css";
 
 const Section3 = () => {
@@ -46,6 +47,7 @@ const Section3 = () => {
         </div>
         <div className="cardAnimations">
           <Bankcard />
+          <Payment />
         </div>
       </div>
     </div>
