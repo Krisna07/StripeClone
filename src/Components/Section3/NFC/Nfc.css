@@ -1,0 +1,38 @@
+.nfcFull {
+  min-width: 400px;
+  padding: 40px;
+  background: #495d73;
+  border: 8px solid mediumslateblue;
+  border-radius: 80px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -300px;
+}
+.displayContainer {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(24, 24, 61, 0.644);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display {
+  width: 320px;
+  height: 320px;
+  background: #173c63e5;
+}
+.phoneBtns {
+  width: 400px;
+  height: 600px;
+  display: grid;
+}
+.nums {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+}

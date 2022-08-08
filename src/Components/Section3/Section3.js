@@ -1,6 +1,7 @@
 import React from "react";
 import HoverBtn from "../HoverBtn";
 import Bankcard from "./Bankcard/Bankcard";
+import Nfc from "./NFC/Nfc";
 import Payment from "./PaymentCard/Payment";
 import "./section3.css";
 
@@ -9,7 +10,10 @@ const Section3 = () => {
     <div className="section3Container">
       <div
         style={{
-          width: "1000px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
         }}
       >
         <div className="sectionContainer">
@@ -48,6 +52,7 @@ const Section3 = () => {
         <div className="cardAnimations">
           <Bankcard />
           <Payment />
+          <Nfc />
         </div>
       </div>
     </div>

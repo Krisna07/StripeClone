@@ -8,6 +8,7 @@
   background-color: #f6f9fc;
 }
 .sectionContainer {
+  width: 1000px;
   position: relative;
   padding: 8rem 1rem;
   display: flex;
@@ -37,6 +38,8 @@
   font-weight: 700;
 }
 .cardAnimations {
+  width: 1000px;
+  position: relative;
   display: flex;
   gap: 2.5rem;
 }

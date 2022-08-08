@@ -1,9 +1,9 @@
 .paymentBox {
-  /* width: 400px;
-  height: 350px; */
-  padding: 2rem 8rem;
+  min-width: 400px;
+  height: 350px;
+  padding: 4rem 8rem;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
   position: relative;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .fromCard {
-  width: 400px;
+  width: 500px;
   position: relative;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -98,6 +98,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 2rem;
 }
 .cardBank {
   width: 100%;
@@ -148,6 +149,5 @@
   justify-content: center;
   border-radius: 4px;
   padding: 5px 0;
-
   font-weight: 600;
 }
