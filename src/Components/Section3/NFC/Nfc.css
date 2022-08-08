@@ -1,38 +1,160 @@
 .nfcFull {
-  min-width: 400px;
-  padding: 40px;
-  background: #495d73;
-  border: 8px solid mediumslateblue;
-  border-radius: 80px;
+  width: fit-content;
+  border: 8px solid #0c2742;
+  border-radius: 60px;
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0c2742;
+  position: relative;
+  top: -350px;
+  float: left;
+}
+.phoneContainer {
+  padding: 20px 20px;
+  border-radius: 52px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  top: 20px;
+  gap: 20px;
   flex-direction: column;
-  position: relative;
-  top: -300px;
+  background: #354b62;
 }
 .displayContainer {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 370px;
   background-color: rgba(24, 24, 61, 0.644);
-  border-radius: 40px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .display {
-  width: 320px;
+  width: 300px;
   height: 320px;
-  background: #173c63e5;
+  background: #1f3850;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.topAnimation {
+  width: 60%;
+  border-bottom: 6px solid white;
+  border-left: 4px solid rgba(255, 255, 255, 0.445);
+  border-right: 4px solid rgba(255, 255, 255, 0.425);
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  top: 10px;
+}
+.blurone {
+  width: 110%;
+  height: 100%;
+  background: #1f385052;
+  position: absolute;
+}
+.animatingArrow {
+  position: relative;
+  left: 20%;
+  font-size: 30px;
+  padding: 10px;
+  animation: animateup 3s infinite ease-in-out;
+}
+@keyframes animateup {
+  20% {
+    transform: translateY(-4px);
+    opacity: 0.8;
+  }
+  40% {
+    transform: translateY(-8px);
+    opacity: 0.6;
+  }
+  60% {
+    transform: translateY(-10px);
+    opacity: 0.4;
+  }
+  80% {
+    transform: translateY(-8px);
+    opacity: 0.6;
+  }
+  90% {
+    transform: translateY(-4px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.card {
+  width: 100px;
+  min-height: 160px;
+  background: rgba(218, 203, 203, 0.171);
+
+  border-radius: 8px;
+  position: relative;
+  border: white solid 1px;
+}
+.card div {
+  width: 30px;
+  height: 35px;
+  background: white;
+  border-radius: 10%;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: 20px;
+}
+.logos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  justify-content: space-around;
 }
 .phoneBtns {
-  width: 400px;
-  height: 600px;
-  display: grid;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 .nums {
-  width: 10px;
-  height: 10px;
-  background-color: green;
+  min-width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background: #324960;
+  border: 2px solid #1b3045;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nums:nth-child(13) {
+  background-color: red;
+}
+.nums:nth-child(15) {
+  background-color: #36a97d;
+}
+.nums:nth-child(10),
+:nth-child(12),
+:nth-child(14) {
+  background: #495d72;
+}
+
+.bottomExtra {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.288);
+  position: relative;
+  bottom: -10px;
+  font-size: 30px;
 }

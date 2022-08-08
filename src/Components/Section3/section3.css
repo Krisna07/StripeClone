@@ -8,7 +8,7 @@
   background-color: #f6f9fc;
 }
 .sectionContainer {
-  width: 1000px;
+  width: 1200px;
   position: relative;
   padding: 8rem 1rem;
   display: flex;
@@ -26,6 +26,7 @@
   font-size: 60px;
 }
 .secDes {
+  width: 80%;
   display: flex;
   gap: 2rem;
   font-size: 20px;
@@ -36,10 +37,18 @@
 .text-blue {
   color: #6a73fe;
   font-weight: 700;
+  cursor: pointer;
+}
+.text-blue:hover {
+  color: black;
 }
 .cardAnimations {
-  width: 1000px;
+  width: 1500px;
   position: relative;
+  left: 10%;
   display: flex;
-  gap: 2.5rem;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  margin: 2.5rem;
 }

@@ -1,6 +1,6 @@
 .paymentBox {
-  min-width: 400px;
-  height: 350px;
+  width: 400px;
+  height: 320px;
   padding: 4rem 8rem;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  float: left;
 }
 .halfbackground {
   width: 150%;

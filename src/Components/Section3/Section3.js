@@ -4,6 +4,7 @@ import Bankcard from "./Bankcard/Bankcard";
 import Nfc from "./NFC/Nfc";
 import Payment from "./PaymentCard/Payment";
 import "./section3.css";
+import Shopping from "./Shopping/Shopping";
 
 const Section3 = () => {
   return (
@@ -53,6 +54,7 @@ const Section3 = () => {
           <Bankcard />
           <Payment />
           <Nfc />
+          <Shopping />
         </div>
       </div>
     </div>
