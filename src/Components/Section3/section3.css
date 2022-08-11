@@ -9,14 +9,16 @@
 }
 .sectionContainer {
   width: 1200px;
+  height: fit-content;
   position: relative;
-  padding: 8rem 1rem;
+  /* padding: 8rem 1rem; */
   display: flex;
   flex-direction: column;
   z-index: 5;
   gap: 2rem;
   z-index: 6;
   /* background-color: red; */
+  overflow: hidden;
 }
 .sectionContainer h2 {
   color: #6a73fe;
@@ -43,12 +45,13 @@
   color: black;
 }
 .cardAnimations {
-  width: 1500px;
-  position: relative;
-  left: 10%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  width: 1600px;
+  height: fit-content;
 
-  margin: 2.5rem;
+  position: relative;
+  left: 12%;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 2.5rem;
 }
