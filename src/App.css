@@ -1,61 +1,77 @@
 .App {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  position: relative;
 }
 .bodyContainer {
-  max-width: 1200px;
-
+  width: var(--Laptops);
+  max-width: var(--Laptops);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  /* border: 1px solid rgba(128, 128, 128, 0.281); */
+  position: relative;
   z-index: 5;
+  /* border: 1px solid rgba(128, 128, 128, 0.281); */
 }
 .topStripe {
-  width: 150%;
-  min-height: 60%;
-  transform: rotate(-10deg);
+  width: 100%;
+  height: 50%;
+  transform: skewY(-10deg);
   background-image: linear-gradient(to right, red, purple);
   position: absolute;
-  top: -30%;
-  left: -200px;
-  z-index: 1;
+  top: -20%;
+  left: 0;
+  z-index: -10;
 }
 .hoverItem {
   width: fit-content;
-  font-weight: bold;
-  border-radius: 50px;
-  position: relative;
-}
-.hoverBtn {
-  display: flex;
-}
-.hoverItem .btnText {
-  width: fit-content;
-  height: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0.5rem;
-  /* font-size: 12px; */
+  padding: 4px 16px 8px;
+  border-radius: 16.5px;
+  gap: 10px;
+  font-weight: 600;
+  outline: none;
+  /* width: fit-content;
+  font-weight: bold;
+  border-radius: 50px;
+  position: relative;
+  padding: 8px 16px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; */
 }
+/* .hoverBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  gap: 5px;
+} */
+
 .arrows {
   width: fit-content;
   position: relative;
+  top: 2px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 .hoverArrow {
   display: none;
   position: absolute;
-
   opacity: 0;
   transition: opacity 200ms ease;
 }
@@ -70,10 +86,10 @@
   transition: opacity 200ms ease;
 }
 
-/* .hrItems {
+.hrItems {
   position: fixed;
   top: 0;
-  width: 1000px;
+  width: 1100px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -81,12 +97,12 @@
   border: 1px solid rgba(58, 58, 59, 0.13);
   border-top: 0;
   border-bottom: 0;
-  z-index: -4;
+  z-index: -10;
 }
 .hrItems span {
+  position: relative;
+  z-index: -10;
   width: 1px;
   height: 100%;
   border-right: 1px dashed rgba(105, 105, 105, 0.116);
-
-
-} */
+}

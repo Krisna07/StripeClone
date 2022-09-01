@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGoogle, FaSalesforce } from "react-icons/fa";
+
 import { ReactComponent as Google } from "../Files/SVGS/google.svg";
 import { ReactComponent as Salesforce } from "../Files/SVGS/salesforce.svg";
 import { ReactComponent as Slack } from "../Files/SVGS/slack.svg";

@@ -1,9 +1,11 @@
 .bankcard {
-  width: 400px;
-  height: 250px;
+  grid-area: card;
+  width: calc(100%-1rem);
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
   justify-content: space-between;
   border-radius: 20px;
   transition: all 300ms ease-in;
@@ -33,6 +35,7 @@
 }
 .cardImage {
   width: 90%;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,6 +50,7 @@
   opacity: 1;
   animation: lemon 300ms ease-in-out;
 }
+
 .circles {
   width: 40px;
   height: 20px;

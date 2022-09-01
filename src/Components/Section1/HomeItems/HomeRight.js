@@ -1,5 +1,5 @@
 import React from "react";
-import HoverBtn from "../HoverBtn";
+import HoverBtn from "../../HoverBtn";
 
 const HomeRight = () => {
   return (

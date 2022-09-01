@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { FaChevronRight, FaArrowRight } from "react-icons/fa";
-import HoverBtn from "../HoverBtn";
+import HoverBtn from "../../HoverBtn";
 
 const Nav = () => {
   const menuItems = [

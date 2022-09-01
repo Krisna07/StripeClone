@@ -1,6 +1,7 @@
 import React from "react";
 import HoverBtn from "../HoverBtn";
 import Bankcard from "./Bankcard/Bankcard";
+import Fraud from "./Fraud/Fraud";
 import Nfc from "./NFC/Nfc";
 import Payment from "./PaymentCard/Payment";
 import "./section3.css";
@@ -8,10 +9,12 @@ import Shopping from "./Shopping/Shopping";
 
 const Section3 = () => {
   return (
-    <div className="section3Container">
+    <div className="section3">
       <div
         style={{
+          width: "100%",
           display: "flex",
+          height: "fit-content",
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
@@ -41,9 +44,6 @@ const Section3 = () => {
             </p>
           </div>
           <HoverBtn
-            onmouseover={() => {
-              console.log("Hello hover");
-            }}
             text={"Start With Payment"}
             color={"#6a73fe"}
             textColor={"white"}
@@ -55,6 +55,7 @@ const Section3 = () => {
           <Payment />
           <Nfc />
           <Shopping />
+          <Fraud />
         </div>
       </div>
     </div>

@@ -1,0 +1,7 @@
+.section1 {
+  width: var(--Laptops);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

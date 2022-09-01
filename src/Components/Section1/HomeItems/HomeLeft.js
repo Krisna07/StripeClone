@@ -1,18 +1,8 @@
 import React from "react";
-import {
-  FaAppleAlt,
-  FaApplePay,
-  FaCcAmex,
-  FaCcDiscover,
-  FaCcMastercard,
-  FaCcVisa,
-  FaChevronDown,
-  FaChevronRight,
-  FaSearch,
-} from "react-icons/fa";
-import Phone from "../Phone/Phone";
-import Chart1 from "../Files/chart1.jpg";
-import Chart2 from "../Files/chart2.jpg";
+import { FaChevronDown, FaSearch } from "react-icons/fa";
+import Phone from "./Phone/Phone";
+import Chart1 from "../../Files/chart1.jpg";
+import Chart2 from "../../Files/chart2.jpg";
 
 import "./Homeleft.css";
 

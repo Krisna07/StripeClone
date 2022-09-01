@@ -1,29 +1,27 @@
 .paymentBox {
-  width: 400px;
-  height: 320px;
-  padding: 4rem 8rem;
+  grid-area: payment;
+  width: 100%;
+  height: fit-content;
+  padding: 10% 0;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  float: left;
 }
 .halfbackground {
-  width: 150%;
+  width: 100%;
   height: 100%;
-
-  transform: rotate(-15deg);
-  position: absolute;
-  z-index: 0;
   top: -50%;
-  left: -5rem;
+  position: absolute;
+  transform: skewY(-15deg);
+  left: 0;
 }
 
 .fromCard {
-  width: 500px;
+  width: 60%;
   position: relative;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

@@ -8,7 +8,6 @@
 }
 
 .homeRight {
-  /* flex-basis: 80%; */
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +38,6 @@
 
 .rightContent .heading {
   font-size: 100px;
-
   letter-spacing: -3px;
   padding: 2rem 0;
   color: rgba(0, 0, 0, 0.89);

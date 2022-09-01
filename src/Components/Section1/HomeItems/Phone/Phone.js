@@ -1,17 +1,14 @@
 import React from "react";
 import {
   FaAppleAlt,
-  FaApplePay,
   FaCcAmex,
   FaCcDiscover,
   FaCcMastercard,
   FaCcVisa,
   FaChevronDown,
-  FaChevronRight,
-  FaSearch,
 } from "react-icons/fa";
-import Amex from "../Files/amex.svg";
-import phoneHead from "../Files/phoneHead.jpg";
+
+import phoneHead from "../../../Files/phoneHead.jpg";
 const Phone = () => {
   return (
     <div className="phoneImage">
