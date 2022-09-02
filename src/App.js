@@ -5,7 +5,8 @@ import Section4 from "./Components/Section4/Section4";
 import Section1 from "./Components/Section1/Section1";
 import Section5 from "./Components/Section5/Section5";
 import Section6 from "./Components/Section6/Section6";
-import ResueableContents from "./Components/ResueableContents";
+import StripeSessions from "./Components/StripeSessions";
+import Sections from "./Components/Sections/Sections";
 
 function App() {
   return (
@@ -29,13 +30,14 @@ function App() {
           border: "1px solid red",
         }}
       >
-        <ResueableContents
+        <Sections
           topics="Virtual event"
           headings="Watch Sessions on demand"
           des="Stripe Sessions—our annual conference—is now available to watch on demand. Learn more about the future of the internet economy and see new Stripe products in action."
           btnText={"Watch now"}
           Color={"blue"}
           textColor="white"
+          rightItem={<StripeSessions />}
         />
       </div>
       <Section5 />

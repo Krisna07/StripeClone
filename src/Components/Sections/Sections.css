@@ -1,0 +1,58 @@
+.section {
+  width: 100%;
+  padding: 1rem;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  top: -280px;
+}
+
+.sectionContainer {
+  width: var(--Laptops);
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 4rem;
+}
+.sectionLeft {
+  flex-basis: 1/2;
+  width: 100%;
+  height: 100%;
+  color: rgb(92, 54, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionDes {
+  width: 100%;
+}
+.sectionDes {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.sectionItems {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.highligthed {
+  color: blue;
+}
+.sectionRight {
+  flex-basis: 1/2;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background-color: bisque;
+}
