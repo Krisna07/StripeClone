@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   position: relative;
 }
 .sessionContainer {
@@ -15,12 +14,15 @@
   grid-template-rows: 50% 50%;
   position: relative;
   overflow: hidden;
-  background-color: aqua;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: rgba(58, 52, 52, 0.363) 3px 3px 60px 6px;
 }
 .topContainer {
   width: 100%;
   height: 60%;
-  background-color: rgb(9, 70, 49);
+  background: rgba(143, 143, 231, 0.548);
   transform: skewY(-5deg);
   position: absolute;
   top: -10%;
@@ -50,9 +52,15 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid rgb(44, 40, 40);
+  border: 2px solid rgb(255, 255, 255);
   transform: skewY(5deg);
-  background-color: bisque;
+  object-fit: fill;
+  overflow: hidden;
+}
+.imageCircle img {
+  width: 100%;
+  height: auto;
+  object-fit: stretch;
 }
 .bottomItems {
   display: flex;
@@ -67,10 +75,22 @@
 .itemsDes {
   display: flex;
   align-items: center;
-
   transform: skewY(-5deg);
 }
 .imageCircle:nth-child(2) {
   position: relative;
   left: -10px;
+}
+.bottomDes {
+  max-width: 80%;
+  display: grid;
+  gap: 1rem;
+}
+.keyNote {
+  font-size: 20px;
+  color: blue;
+}
+.keyDes {
+  font-size: 20px;
+  color: black;
 }

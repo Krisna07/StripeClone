@@ -15,7 +15,7 @@ const Sections = ({
   return (
     <div className="section">
       <div className="sectionContainer">
-        <div className="sectionLeft">
+        <div className="sectionsLeft">
           <div className="sectionDes">
             <h4>{topics}</h4>
             <h2 style={{ color: "black", fontSize: "40px" }}>{headings}</h2>
@@ -24,7 +24,7 @@ const Sections = ({
           </div>
           <div className="sectionItems"></div>
         </div>
-        <div className="sectionRight">{rightItem}</div>
+        <div className="sectionsRight">{rightItem}</div>
       </div>
     </div>
   );

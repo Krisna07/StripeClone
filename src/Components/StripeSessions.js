@@ -12,12 +12,24 @@ const StripeSessions = () => {
         <div className="bottomContainer">
           <div className="bottomItems">
             <div className="itemsDes">
-              <div className="imageCircle"></div>
-              <div className="imageCircle"></div>
+              <div className="imageCircle">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVCmC_4ackJ10-W1R_DtFo--ZulKzjDjoWA&usqp=CAU"
+                  alt=""
+                />
+              </div>
+              <div className="imageCircle">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVCmC_4ackJ10-W1R_DtFo--ZulKzjDjoWA&usqp=CAU"
+                  alt=""
+                />
+              </div>
             </div>
-            <div>
-              <h4>Keynote</h4>{" "}
-              <h4>Building for the next era of the internet economy</h4>
+            <div className="bottomDes">
+              <h4 className="keyNote">Keynote</h4>
+              <h4 className="keyDes">
+                Building for the next era of the internet economy
+              </h4>
             </div>
           </div>
         </div>

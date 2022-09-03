@@ -20,10 +20,10 @@ const Section3 = () => {
           flexDirection: "column",
         }}
       >
-        <div className="sectionContainer">
+        <div className="section3Container">
           <h2>Unified Platform</h2>
           <h1>A fully integrated suite of payments products</h1>
-          <div className="secDes">
+          <div className="sec3Des">
             <p>
               We bring together everything that’s required to build websites and
               apps that accept payments and send payouts globally. Stripe’s

@@ -6,7 +6,7 @@ const HomeRight = () => {
     <div>
       <div className="homeRight">
         <div className="rightBtn">
-          <div className="sessionContainer hoverItem">
+          <div className="AnnouncementContainer hoverItem">
             <span> Stripe Sessions 2022</span>
             <ul>
               <li>

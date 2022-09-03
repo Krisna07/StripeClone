@@ -11,7 +11,7 @@ import Sections from "./Components/Sections/Sections";
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="topSection">
         <div className="topStripe"></div>
         <Section1 />
       </div>

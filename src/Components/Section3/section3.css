@@ -3,7 +3,7 @@
   padding: 4rem;
   background-color: #f6f9fc;
 }
-.sectionContainer {
+.section3Container {
   width: 100%;
   position: relative;
   /* padding: 8rem 1rem; */
@@ -13,20 +13,20 @@
   gap: 2rem;
   overflow: hidden;
 }
-.sectionContainer h2 {
+.section3Container h2 {
   color: #6a73fe;
 }
-.sectionContainer h1 {
+.section3Container h1 {
   width: 25ch;
   font-size: 60px;
 }
-.secDes {
+.sec3Des {
   width: 80%;
   display: flex;
   gap: 2rem;
   font-size: 20px;
 }
-.secDes p {
+.sec3Des p {
   flex-basis: 50%;
 }
 .text-blue {
