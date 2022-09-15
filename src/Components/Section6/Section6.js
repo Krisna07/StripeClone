@@ -37,7 +37,7 @@ const Section6 = () => {
           width: "100px",
           position: "absolute",
           zIndex: "99",
-          top: "-20rem",
+
           background: "red;",
           transform: "skewY(10deg)",
         }}

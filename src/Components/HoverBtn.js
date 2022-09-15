@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaChevronRight } from "react-icons/fa";
 
-const HoverBtn = ({ text, color, textColor }) => {
+const HoverBtn = ({ text, color, textColor, padding }) => {
   return (
     <div
       className="hoverItem"
@@ -9,6 +9,7 @@ const HoverBtn = ({ text, color, textColor }) => {
         background: `${color}`,
         color: `${textColor}`,
         display: "flex",
+        padding: `${padding}`,
       }}
     >
       <p>{text}</p>

@@ -7,6 +7,8 @@ import Section5 from "./Components/Section5/Section5";
 import Section6 from "./Components/Section6/Section6";
 import StripeSessions from "./Components/StripeSessions";
 import Sections from "./Components/Sections/Sections";
+import Section7 from "./Components/Section7/Section7";
+import { Section8 } from "./Components/Section8/Section8";
 
 function App() {
   return (
@@ -25,9 +27,8 @@ function App() {
           width: "100%",
           position: "relative",
           background: "white",
-          padding: "12rem",
-          zIndex: "10",
-          border: "1px solid red",
+          padding: "10rem",
+          background: "rgb(233, 233, 233)",
         }}
       >
         <Sections
@@ -40,8 +41,8 @@ function App() {
           rightItem={<StripeSessions />}
         />
       </div>
-      <Section5 />
-      <Section4 />
+      <Section7 />
+      <Section8 />
     </div>
   );
 }

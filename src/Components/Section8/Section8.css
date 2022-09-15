@@ -1,0 +1,15 @@
+.section8 {
+  width: 100%;
+
+  position: relative;
+
+  background: white;
+  padding: 4rem 0;
+  background: gray;
+  transform: skewY(-10deg);
+}
+.section8Container {
+  width: var(--Laptops);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
