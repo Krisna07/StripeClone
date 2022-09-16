@@ -28,7 +28,6 @@ const Payment = () => {
     setPayment(payment + 1);
   }, 5000);
 
-  console.log(payment);
   return (
     <div className="paymentBox">
       <div
@@ -60,9 +59,8 @@ const Payment = () => {
               <div
                 className="inputFields"
                 style={{
-                  borderColor: `${colors[payment]}`,
                   color: `${colors[payment]}`,
-                  border: "2px solid  ",
+                  border: `2px solid ${colors[payment]}`,
                 }}
               >
                 <FaCreditCard /> Card

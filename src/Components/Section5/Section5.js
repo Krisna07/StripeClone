@@ -66,10 +66,10 @@ const Section5 = () => {
           </h2>
         </div>
         <div className="section5Items">
-          {section5Items.map((items) => (
+          {section5Items.map((items, i) => (
             <div
               className="miniTools"
-              key={items.icons}
+              key={i}
               style={{ width: "90%", color: "black" }}
             >
               <div

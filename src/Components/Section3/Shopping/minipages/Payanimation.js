@@ -24,9 +24,9 @@ const Payanimation = ({ GlosserPayment }) => {
           </span>
           <span>Cancel</span>
         </div>
-        {GlosserPayment.map((items) => {
+        {GlosserPayment.map((items, i) => {
           return (
-            <div key={items.title} className="paymentDetails">
+            <div key={i} className="paymentDetails">
               <div>{items.title}</div>
               <div>
                 {items.des.map((des) => {

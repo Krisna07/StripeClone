@@ -1,7 +1,7 @@
 .nfcContainer {
   grid-area: nfc;
   width: 100%;
-  height: 100px;
+  height: 10px;
 }
 .nfcFull {
   width: 100%;
@@ -13,6 +13,7 @@
   flex-direction: column;
   background-color: #0c2742;
   position: relative;
+  top: -110px;
 }
 .phoneContainer {
   width: calc(100% - 20px);

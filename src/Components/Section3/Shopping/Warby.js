@@ -61,13 +61,13 @@ const Warby = () => {
     <div className="screenItem">
       <div className="payHeading" style={{ fontStyle: "normal" }}>
         <h4 style={{ fontWeight: "500" }}>WARBY PARKER</h4>
-        <img className="titleImage" src={warbyGlasss} alt="" srcset="" />
+        <img className="titleImage" src={warbyGlasss} alt="" />
         <div className="headingDes">
           <p style={{ fontWeight: "700" }}>Wilkie</p>
           <p>Purely Functional</p>
           <div className="dots">
-            {[...Array(4)].map((x, i) => (
-              <div className="dot" key={i}>
+            {[...Array(4)].map((x) => (
+              <div className="dot" key={x}>
                 <div></div>
               </div>
             ))}

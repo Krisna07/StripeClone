@@ -28,7 +28,7 @@ const Bankcard = () => {
       width="103"
       height="107"
       viewBox="0 0 103 107"
-      class="CommutifyCardDesign__graphic"
+      className="CommutifyCardDesign__graphic"
     >
       <g fill="#FFF" fill-rule="evenodd" transform="translate(.024 .775)">
         <circle
@@ -120,11 +120,11 @@ const Bankcard = () => {
               y2="58%"
               data-js-target="AnimatedCardGraphic.chipGradient"
             >
-              <stop offset="0%" stop-color="#FFF"></stop>
-              <stop offset="18%" stop-color="#CFCFCF"></stop>
-              <stop offset="50%" stop-color="#FAFCFF"></stop>
-              <stop offset="68%" stop-color="#CFCFCF"></stop>
-              <stop offset="100%" stop-color="#FFF"></stop>
+              <stop offset="0%" stopColor="#FFF"></stop>
+              <stop offset="18%" stopColor="#CFCFCF"></stop>
+              <stop offset="50%" stopColor="#FAFCFF"></stop>
+              <stop offset="68%" stopColor="#CFCFCF"></stop>
+              <stop offset="100%" stopColor="#FFF"></stop>
             </linearGradient>
             <mask id="chip-mask">
               <path

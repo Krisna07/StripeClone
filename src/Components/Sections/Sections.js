@@ -1,5 +1,6 @@
 import React from "react";
 import HoverBtn from "../HoverBtn";
+import ListDes from "../ListDes/ListDes";
 
 import "./Sections.css";
 
@@ -12,18 +13,24 @@ const Sections = ({
   textColor,
   rightItem,
   secondaryBtn,
+  fontColor,
   Secheadings,
+  sectionItems,
 }) => {
   return (
     <div className="section">
       <div className="sectionContainer">
         <div className="sectionsLeft">
-          <div className="sectionDes">
-            {topics ? <span style={{ fontWeight: "bold" }}>{topics}</span> : ""}
+          <div className="sectionDes" style={{ color: `${fontColor}` }}>
+            {topics ? (
+              <span style={{ fontWeight: "bold", color: `${Color}` }}>
+                {topics}
+              </span>
+            ) : (
+              ""
+            )}
             {headings ? (
-              <span
-                style={{ color: "black", fontSize: "40px", fontWeight: "bold" }}
-              >
+              <span style={{ fontSize: "40px", fontWeight: "bold" }}>
                 {headings}
               </span>
             ) : (
@@ -38,20 +45,30 @@ const Sections = ({
             ) : (
               ""
             )}
-            <p style={{ color: "black" }}>{des}</p>
-            <div style={{ display: "flex", alignItems: "flex-start" }}>
-              <HoverBtn text={btnText} color={Color} textColor={textColor} />
-              {secondaryBtn ? (
-                <HoverBtn text={secondaryBtn} textColor={Color} />
-              ) : (
-                ""
-              )}
-            </div>
+            <p style={{ opacity: "0.8" }}>{des}</p>
+            {btnText ? (
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                }}
+              >
+                <HoverBtn text={btnText} color={Color} textColor={textColor} />
+                {secondaryBtn ? (
+                  <HoverBtn text={secondaryBtn} textColor={Color} />
+                ) : (
+                  ""
+                )}
+              </div>
+            ) : (
+              ""
+            )}
           </div>
           <div className="sectionItems"></div>
         </div>
         <div className="sectionsRight">{rightItem}</div>
       </div>
+      <div className="sectionItems"></div>
     </div>
   );
 };

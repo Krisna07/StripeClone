@@ -4,8 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   position: relative;
+  background: rgb(253, 242, 242);
+  z-index: 999;
 }
 .bodyContainer {
   width: var(--Laptops);

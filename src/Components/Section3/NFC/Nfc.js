@@ -28,8 +28,8 @@ const Nfc = () => {
             </div>
           </div>
           <div className="phoneBtns">
-            {nums.map((num) => (
-              <div className="nums"></div>
+            {nums.map((num, i) => (
+              <div className="nums" key={i}></div>
             ))}
           </div>
         </div>

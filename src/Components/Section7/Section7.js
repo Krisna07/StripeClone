@@ -11,7 +11,9 @@ const Section7 = () => {
         width: "100%",
         position: "relative",
         background: "white",
-        padding: "2rem 0",
+
+        zIndex: "-99",
+        padding: "4rem 0 8rem 0 ",
       }}
     >
       <Sections
@@ -21,6 +23,8 @@ const Section7 = () => {
         secondaryBtn={"Contact Sales"}
         Color={"blue"}
         textColor="white"
+        topicColor="blue"
+        fontColor="black"
         rightItem={<Section7Right />}
       />
     </div>

@@ -22,12 +22,13 @@ function App() {
       <Section4 />
       <Section5 />
       <Section6 />
+
       <div
         style={{
           width: "100%",
           position: "relative",
           background: "white",
-          padding: "10rem",
+          padding: "4rem",
           background: "rgb(233, 233, 233)",
         }}
       >

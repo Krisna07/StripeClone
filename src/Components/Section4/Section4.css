@@ -6,7 +6,6 @@
   transform: skewY(-10deg);
   position: relative;
   z-index: 1;
-  top: -280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +16,7 @@
   transform: skewY(10deg);
   display: grid;
   grid-template-columns: auto auto;
-  padding: 12rem 0;
+  padding: 8rem 0;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;

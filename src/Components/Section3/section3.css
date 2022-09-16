@@ -1,17 +1,18 @@
 .section3 {
-  width: var(--Laptops);
-  padding: 4rem;
+  width: 100%;
   background-color: #f6f9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section3Container {
-  width: 100%;
-  position: relative;
-  /* padding: 8rem 1rem; */
+  width: var(--Laptops);
   display: flex;
   flex-direction: column;
   z-index: 5;
   gap: 2rem;
   overflow: hidden;
+  padding-top: 8rem;
 }
 .section3Container h2 {
   color: #6a73fe;
@@ -38,11 +39,9 @@
   color: black;
 }
 .cardAnimations {
-  width: 1100px;
+  width: var(--Laptops);
   position: relative;
-  top: -10rem;
   display: grid;
-  align-self: flex-start;
   grid-template-areas:
     ". . nfc"
     "card payment ."
