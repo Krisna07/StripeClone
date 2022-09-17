@@ -16,7 +16,9 @@ const HomeRight = () => {
           </div>
         </div>
         <div className="rightContent">
-          <h1 className="heading">Payments infrastructure for the internet</h1>
+          <span className="heading">
+            Payments infrastructure for the internet
+          </span>
           <p className="content1">
             Millions of businesses of all sizes—from startups to large
             enterprises—use Stripe’s software and APIs to accept payments, send

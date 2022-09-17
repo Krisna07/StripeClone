@@ -21,21 +21,18 @@ const Sections = ({
     <div className="section">
       <div className="sectionContainer">
         <div className="sectionsLeft">
-          <div className="sectionDes" style={{ color: `${fontColor}` }}>
+          <div className="sectionDes " style={{ color: `${fontColor}` }}>
             {topics ? (
-              <span style={{ fontWeight: "bold", color: `${Color}` }}>
+              <span
+                className="sectionTopic"
+                style={{ fontWeight: "bold", color: `${Color}` }}
+              >
                 {topics}
               </span>
             ) : (
               ""
             )}
-            {headings ? (
-              <span style={{ fontSize: "40px", fontWeight: "bold" }}>
-                {headings}
-              </span>
-            ) : (
-              ""
-            )}
+            {headings ? <span className="sectionHeading">{headings}</span> : ""}
             {Secheadings ? (
               <span
                 style={{ color: "black", fontSize: "30px", fontWeight: "bold" }}

@@ -8,19 +8,19 @@ const Section6 = () => {
   const section6Items = [
     {
       topic: "250M+",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem?",
+      des: "API requests per day. peaking at 13,000 request a second.",
     },
     {
       topic: "90%",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem?",
+      des: "of U.S. adults have bought from business using stripe.",
     },
     {
       topic: "135+",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem?",
+      des: "Currencies and payment methods supported",
     },
     {
       topic: "35+",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rem?",
+      des: "contries with local acquiring optimizing acceptance rates.",
     },
   ];
   return (
@@ -68,9 +68,11 @@ const Section6 = () => {
         <div
           style={{
             width: "var(--Laptops)",
-            display: "grid",
-            gridTemplateColumns: "auto auto auto auto",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
             color: "white",
+            lineHeight: "150%",
           }}
         >
           {section6Items.map((items, i) => (
@@ -78,18 +80,21 @@ const Section6 = () => {
               <div className="listIcons">{items.icon}</div>
               <h2
                 style={{
-                  borderLeft: "1px solid white",
+                  borderLeft: "1px solid blue",
                   paddingLeft: "1rem ",
                   height: "fit-Content",
                   position: "relative",
                   left: "-1rem",
                   fontWeight: "600",
+                  lineHeight: "normal",
                 }}
               >
                 {items.topic}
               </h2>
 
-              <p>{items.des}</p>
+              <p style={{ opacity: "0.6", fontSize: "14px", width: "80%" }}>
+                {items.des}
+              </p>
             </div>
           ))}
         </div>

@@ -9,8 +9,12 @@ const Section4 = () => {
     <div className="section4Container">
       <div className="section4Contents">
         <div className="firstContainer">
-          <p>Designed For Developers</p>
-          <h1>The world's most powerful and easy-to-use APIs</h1>
+          <span className="sectionTopic" style={{ color: "#6a73fe" }}>
+            Designed For Developers
+          </span>
+          <span className="sectionHeading">
+            The world's most powerful and easy-to-use APIs
+          </span>
           <div className="paraSec">
             <p>
               We agonize over the right abstractions so your teams don’t need to

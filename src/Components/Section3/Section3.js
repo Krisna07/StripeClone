@@ -21,8 +21,12 @@ const Section3 = () => {
         }}
       >
         <div className="section3Container">
-          <h2>Unified Platform</h2>
-          <h1>A fully integrated suite of payments products</h1>
+          <span className="sectionTopic" style={{ color: "#6a73fe" }}>
+            Unified Platform
+          </span>
+          <span className="sectionHeading">
+            A fully integrated suite of payments products
+          </span>
           <div className="sec3Des">
             <p>
               We bring together everything that’s required to build websites and
@@ -44,10 +48,11 @@ const Section3 = () => {
             </p>
           </div>
           <HoverBtn
-            text={"Start With Payment"}
+            text={"Start with payement"}
             color={"#6a73fe"}
             textColor={"white"}
             padding={".6rem "}
+            hover={"black"}
           />
         </div>
         <div className="cardAnimations">

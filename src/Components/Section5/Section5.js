@@ -60,10 +60,12 @@ const Section5 = () => {
     <div className="section5Container">
       <div className="section5Contents">
         <div className="section5des">
-          <h4>Why Stripe</h4>
-          <h2 style={{ color: "black", fontSize: "40px" }}>
+          <span className="sectionTopic" style={{ color: "#6a73fe" }}>
+            Why Stripe
+          </span>
+          <span className="sectionHeading">
             A technology-first approach to payments and finance
-          </h2>
+          </span>
         </div>
         <div className="section5Items">
           {section5Items.map((items, i) => (
@@ -87,6 +89,7 @@ const Section5 = () => {
                   padding: "0 1rem ",
                   position: "relative",
                   left: "-1rem",
+                  lineHeight: "normal",
                 }}
               >
                 {items.topic}

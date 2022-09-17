@@ -14,13 +14,7 @@
   overflow: hidden;
   padding-top: 8rem;
 }
-.section3Container h2 {
-  color: #6a73fe;
-}
-.section3Container h1 {
-  width: 25ch;
-  font-size: 60px;
-}
+
 .sec3Des {
   width: 80%;
   display: flex;

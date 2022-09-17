@@ -10,6 +10,7 @@
 .homeRight {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .AnnouncementContainer {
   width: fit-content;
@@ -39,6 +40,8 @@
 .rightContent .heading {
   font-size: 100px;
   letter-spacing: -3px;
+  font-weight: 600;
+  line-height: 110%;
   padding: 2rem 0;
   color: rgba(0, 0, 0, 0.89);
 }

@@ -1,18 +1,19 @@
 .topGlass {
   width: 1000px;
-  /* height: 400px; */
   background: rgba(155, 155, 153, 0.411);
   position: absolute;
+  top: 6rem;
   z-index: -1;
   padding: 1rem;
   margin-left: 5rem;
   border-radius: 10px;
 }
 .glassNav {
-  width: 600px;
+  width: 50%;
   display: flex;
   align-items: center;
-  gap: 4rem;
+  justify-content: space-between;
+
   padding: 1rem;
   opacity: 0.8;
 }
@@ -44,21 +45,19 @@
   margin: 0 1rem 0 0.5rem;
 }
 .phoneImage {
-  padding: 1rem;
-  width: 230px;
-
+  padding: 2rem 0;
+  width: 300px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
   background: rgb(255, 255, 255);
-
   position: absolute;
   left: -100px;
-
   font-size: 12px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 1rem;
+  line-height: normal;
 }
 .phoneHeading {
   display: flex;
@@ -72,7 +71,7 @@
   width: 90%;
   background: black;
   color: white;
-  padding: 4px;
+  padding: 4px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +89,6 @@
   width: 100%;
   height: 1px;
   background: rgb(112, 112, 112);
-
   opacity: 0.5;
   position: relative;
   z-index: 10;

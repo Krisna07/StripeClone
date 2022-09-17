@@ -17,7 +17,6 @@
   flex-direction: column;
   position: relative;
   z-index: 5;
-  /* border: 1px solid rgba(128, 128, 128, 0.281); */
 }
 .topSection {
   width: 100%;
@@ -31,51 +30,56 @@
   width: 100%;
   height: 100%;
   transform: skewY(-10deg);
-  background-image: linear-gradient(to right, red, purple);
+  background-image: linear-gradient(
+    to right,
+    #a960ee,
+    #ff333d,
+    #90e0ff,
+    #ffcb57
+  );
+  background-size: 2 00%;
   position: absolute;
   top: -60%;
   left: 0;
   z-index: -1;
+  animation: backgroundMove 10s infinite alternate;
 }
+@keyframes backgroundMove {
+  0% {
+    background-position: left;
+  }
+  40% {
+    background-position: top;
+  }
+  80% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
 .hoverItem {
   width: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 16px 8px;
-  border-radius: 16.5px;
+  padding: 0 10px !important;
+  border-radius: 20px;
   gap: 10px;
   font-weight: 600;
   outline: none;
-  /* width: fit-content;
-  font-weight: bold;
-  border-radius: 50px;
-  position: relative;
-  padding: 8px 16px;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px; */
+  font-size: 14px;
 }
-/* .hoverBtn {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-
-  gap: 5px;
-} */
 
 .arrows {
   width: fit-content;
   position: relative;
-  top: 2px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 .hoverArrow {
   display: none;
@@ -113,4 +117,14 @@
   width: 1px;
   height: 100%;
   border-right: 1px dashed rgba(105, 105, 105, 0.116);
+}
+
+.sectionHeading {
+  width: 25ch;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.sectionTopic {
+  font-weight: 600;
 }
