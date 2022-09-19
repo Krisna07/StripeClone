@@ -16,6 +16,7 @@ const Sections = ({
   fontColor,
   Secheadings,
   sectionItems,
+  headingWidth,
 }) => {
   return (
     <div className="section">
@@ -32,7 +33,16 @@ const Sections = ({
             ) : (
               ""
             )}
-            {headings ? <span className="sectionHeading">{headings}</span> : ""}
+            {headings ? (
+              <span
+                className="sectionHeading"
+                style={{ width: `${headingWidth}` }}
+              >
+                {headings}
+              </span>
+            ) : (
+              ""
+            )}
             {Secheadings ? (
               <span
                 style={{ color: "black", fontSize: "30px", fontWeight: "bold" }}

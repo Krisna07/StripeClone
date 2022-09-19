@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .section3Container {
-  width: var(--Laptops);
+  width: 1100px;
   display: flex;
   flex-direction: column;
   z-index: 5;
@@ -33,7 +33,7 @@
   color: black;
 }
 .cardAnimations {
-  width: var(--Laptops);
+  width: 1100px;
   position: relative;
   display: grid;
   grid-template-areas:

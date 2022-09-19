@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   :root {
     --Laptops: 90%;
     --gradient: linear-gradient(to right, red, purple);
@@ -11,9 +11,12 @@
 }
 @media only screen and (min-width: 1100px) {
   :root {
-    --Laptops: 1100px;
+    --Laptops: 100%;
   }
-}
+} */
+/* :root {
+  --Laptops: 1100px;
+} */
 body {
   font-family: "sohne-var", "Helvetica Neue", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;

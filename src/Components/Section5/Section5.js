@@ -8,6 +8,7 @@ import {
   RiSettings5Fill,
 } from "react-icons/ri";
 import { FaPlay, FaSun } from "react-icons/fa";
+import Sections from "../Sections/Sections";
 
 const Section5 = () => {
   const section5Items = [
@@ -59,14 +60,13 @@ const Section5 = () => {
   return (
     <div className="section5Container">
       <div className="section5Contents">
-        <div className="section5des">
-          <span className="sectionTopic" style={{ color: "#6a73fe" }}>
-            Why Stripe
-          </span>
-          <span className="sectionHeading">
-            A technology-first approach to payments and finance
-          </span>
-        </div>
+        <Sections
+          topics={"Why Stripe"}
+          headings={" A technology-first approach to payments and finance"}
+          fontColor="black"
+          Color="blue"
+          headingWidth={"30ch"}
+        />
         <div className="section5Items">
           {section5Items.map((items, i) => (
             <div
@@ -105,3 +105,16 @@ const Section5 = () => {
 };
 
 export default Section5;
+// <div className="section5Container">
+//       <div className="section5Contents">
+//         <div className="section5des">
+//           <span className="sectionTopic" style={{ color: "#6a73fe" }}>
+//             Why Stripe
+//           </span>
+//           <span className="sectionHeading">
+//             A technology-first approach to payments and finance
+//           </span>
+//         </div>
+
+//       </div>
+//     </div>

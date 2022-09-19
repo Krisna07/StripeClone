@@ -11,7 +11,7 @@
   justify-content: center;
 }
 .section4Contents {
-  width: var(--Laptops);
+  width: 1100px;
   color: white;
   transform: skewY(10deg);
   display: grid;

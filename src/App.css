@@ -120,9 +120,10 @@
 }
 
 .sectionHeading {
-  width: 25ch;
+  display: flex;
+  align-items: flex-start;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 55px;
   font-weight: 600;
 }
 .sectionTopic {

@@ -67,7 +67,7 @@ const Section6 = () => {
         />
         <div
           style={{
-            width: "var(--Laptops)",
+            width: "1100px",
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
