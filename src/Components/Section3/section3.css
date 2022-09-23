@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .section3Container {
-  width: 1100px;
+  width: var(--Laptops);
   display: flex;
   flex-direction: column;
   z-index: 5;
@@ -46,4 +46,13 @@
   grid-template-rows: auto auto auto auto;
   gap: 4rem;
   display: flex-start;
+}
+
+@media only screen and (max-width: 900px) {
+  .section3Container {
+    width: 90%;
+  }
+  .cardAnimations {
+    width: 90%;
+  }
 }

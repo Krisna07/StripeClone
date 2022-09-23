@@ -9,7 +9,9 @@ const Section1 = () => {
   return (
     <div className="section1">
       <Nav />
+
       <Home />
+
       <Sponsers />
     </div>
   );

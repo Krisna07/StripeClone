@@ -16,7 +16,7 @@ const HomeRight = () => {
           </div>
         </div>
         <div className="rightContent">
-          <span className="heading">
+          <span className="heading" style={{ opacity: "0.8" }}>
             Payments infrastructure for the internet
           </span>
           <p className="content1">

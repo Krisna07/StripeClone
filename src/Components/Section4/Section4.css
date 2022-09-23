@@ -18,7 +18,7 @@
   grid-template-columns: auto auto;
   padding: 8rem 0;
   align-items: flex-start;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   gap: 4rem;
 }
@@ -61,8 +61,9 @@
   gap: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .section4Contents {
+    width: 90%;
     grid-template-columns: auto;
   }
   .toolsPrebuilt {

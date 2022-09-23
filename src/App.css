@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background: rgb(253, 242, 242);
+  background: #f6f9fc;
   z-index: 999;
 }
 .bodyContainer {
@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 .topStripe {
   width: 100%;
@@ -37,11 +38,10 @@
     #90e0ff,
     #ffcb57
   );
-  background-size: 2 00%;
+  background-size: 200%;
   position: absolute;
   top: -60%;
   left: 0;
-  z-index: -1;
   animation: backgroundMove 10s infinite alternate;
 }
 @keyframes backgroundMove {

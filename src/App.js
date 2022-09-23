@@ -17,13 +17,10 @@ function App() {
         <div className="topStripe"></div>
         <Section1 />
       </div>
-
       <Section3 />
       <Section4 />
-
       <Section5 />
       <Section6 />
-
       <div
         style={{
           width: "100%",

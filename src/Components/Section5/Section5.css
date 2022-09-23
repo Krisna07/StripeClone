@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   transform: skewY(-10deg);
   z-index: 99;
   background: white;
@@ -36,4 +35,13 @@
 }
 .highligthed {
   color: blue;
+}
+@media only screen and (max-width: 900px) {
+  .section5Contents {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+  .section5Items {
+    grid-template-columns: auto;
+  }
 }
