@@ -1,8 +1,9 @@
 .shopItems {
   grid-area: shopping;
-  width: 100%;
-  height: 150px;
+  width: 80%;
+  height: 200px;
   position: relative;
+  right: -20%;
 }
 .shopingPhoneContainer {
   width: calc(100%-5px);

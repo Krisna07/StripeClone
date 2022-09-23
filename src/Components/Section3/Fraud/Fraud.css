@@ -3,10 +3,9 @@
   padding: 10px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
-  width: fit-content;
-  height: 500px;
+  width: 100%;
   object-fit: cover;
 }
 .fraudImage {
-  min-width: 100%;
+  width: 100%;
 }

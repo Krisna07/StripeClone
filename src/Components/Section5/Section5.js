@@ -59,6 +59,9 @@ const Section5 = () => {
   ];
   return (
     <div className="section5Container">
+      <div className="skewDivLeft"></div>
+      <div className="skewDivRight"></div>
+
       <div className="section5Contents">
         <Sections
           topics={"Why Stripe"}

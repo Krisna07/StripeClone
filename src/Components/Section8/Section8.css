@@ -1,11 +1,13 @@
 .section8 {
   width: 100%;
   position: relative;
-  padding: 8rem 0;
+  z-index: 999;
 }
 .section8Container {
   width: 1100px;
+  position: relative;
   display: grid;
+  padding: 0 0 2rem 0;
   grid-template-columns: 25% 25% 25% 25%;
 }
 

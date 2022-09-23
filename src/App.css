@@ -129,3 +129,45 @@
 .sectionTopic {
   font-weight: 600;
 }
+.skewDiv {
+  position: relative;
+}
+.skewDivLeft {
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  background: rgb(36, 15, 109);
+  z-index: 0;
+  top: 0;
+}
+
+.skewDivLeft::after {
+  content: "";
+  width: 30%;
+  height: 40px;
+  background-color: #90e0ff;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  right: 20px;
+}
+.skewDivRight {
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  background: #90e0ff;
+  right: 0;
+  z-index: 0;
+  bottom: 0;
+}
+.skewDivRight::after {
+  content: "";
+  width: 30%;
+  height: 40px;
+  background-color: rgb(36, 15, 109);
+  position: absolute;
+  right: 0;
+  top: 20px;
+  left: 20px;
+}

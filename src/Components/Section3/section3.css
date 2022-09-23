@@ -42,7 +42,8 @@
     "shopping . ."
     ". chart chart";
 
-  grid-template-columns: 30% 48% 25%;
+  grid-template-columns: 400px 600px 320px;
   grid-template-rows: auto auto auto auto;
   gap: 4rem;
+  display: flex-start;
 }
