@@ -2,7 +2,7 @@ import React from "react";
 import HoverBtn from "../HoverBtn";
 import "./Section4.css";
 import StripeImage from "../Files/stripeText.jpg";
-import { RiSettings5Fill } from "react-icons/ri";
+import { FcSettings } from "react-icons/fc";
 
 const Section4 = () => {
   return (
@@ -44,7 +44,7 @@ const Section4 = () => {
                       {">_"}
                     </span>
                   </div>
-                  <RiSettings5Fill
+                  <FcSettings
                     style={{
                       fontSize: "40px",
                       padding: "20px 30px",
