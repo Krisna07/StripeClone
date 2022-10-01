@@ -7,6 +7,7 @@
   position: relative;
   background: #f6f9fc;
   z-index: 999;
+  overflow: hidden;
 }
 .bodyContainer {
   width: var(--Laptops);
@@ -27,6 +28,7 @@
   justify-content: center;
   background-color: white;
 }
+
 .topStripe {
   width: 100%;
   height: 100%;

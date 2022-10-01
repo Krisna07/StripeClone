@@ -1,24 +1,26 @@
 .home {
   width: 100%;
-  padding: 2rem;
   display: flex;
   gap: 10%;
-  /* overflow: hidden; */
   z-index: 4;
+  position: relative;
 }
 
 .homeRight {
+  width: 100%;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   position: relative;
+  gap: 4rem;
 }
 .AnnouncementContainer {
-  width: fit-content;
+  width: 100%;
   display: flex;
   align-items: center;
   background: rgba(87, 86, 86, 0.315);
   text-align: left;
-  padding: 4px 1rem;
+  /* padding: 4px 1rem; */
   border-radius: 50px;
   font-size: 10px;
   font-weight: bold;
@@ -36,9 +38,13 @@
 .sessionContainer:hover li {
   color: rgb(170, 167, 167);
 }
-
+.rightContent {
+  display: flex;
+  flex-direction: column;
+}
 .rightContent .heading {
-  font-size: 100px;
+  width: 100%;
+  font-size: 90px;
   letter-spacing: -3px;
   font-weight: 600;
   line-height: 110%;
@@ -46,7 +52,7 @@
   color: rgba(0, 0, 0, 0.89);
 }
 .content1 {
-  width: 50ch;
+  width: 60%;
 }
 .startContainer {
   width: 100%;
@@ -60,4 +66,15 @@
 .homeLeft {
   flex-basis: 50%;
   overflow-x: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .rightContent .heading {
+    width: 100%;
+    font-size: 90px;
+  }
+
+  .homeLeft {
+    display: none;
+  }
 }
